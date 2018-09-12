@@ -14,7 +14,7 @@ public class LoginServlet extends HttpServlet {
 			throws ServletException, IOException {
 		String user = req.getParameter("user");
 		String pass = req.getParameter("password");
-		if ("scmExam".equals(user) && "eli4java".equals(pass)) {
+		if ("scmExam".equals(user) && "camilo4988".equals(pass)) {
 			response(resp, "Autenticacion correcta");
 		} else {
 			response(resp, "Autenticacion incorrecta, verifica tus credenciales e intentalo nuevamente");
